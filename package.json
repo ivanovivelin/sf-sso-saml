@@ -1,0 +1,33 @@
+{
+  "name": "sf-idp-sso-app",
+  "version": "0.0.1",
+  "description": "Test app to simulate SSO with SAML with Salesforce as Identity Provider",
+  "author": {
+    "name": "Ivelin Ivanov",
+    "email": "ivelin.ivanovxps@gmail.com"
+  },
+  "keywords": [
+    "saml",
+    "sso"
+  ],
+  "scripts": {
+    "start": "nf run node app.js",
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bower": "*",
+    "ejs": "*",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "foreman": "*",
+    "form-data": "^2.3.3",
+    "js-yaml": "^3.13.1",
+    "passport": "*",
+    "passport-saml": "*",
+    "request": "^2.88.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
